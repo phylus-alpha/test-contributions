@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+
+{
+
+    int m1=0,m2=0;
+    int vx1=0,vx2=0,ux1=0,ux2=0;
+    int vy1=0,vy2=0,uy1=0,uy2=0;  
+
+    scanf("%d%d",&ux1,&uy1);   
+
+    scanf("%d%d",&ux2,&uy2);
+
+    scanf("%d%d",&m1,&m2);
+
+    scanf("%d%d",&vx1,&vy1);
+
+    vx1 = ((m1*ux1)+(m2*ux2)-(m1*vx1))/m2;   
+
+    vy2 = ((m1*uy1)+(m2*uy2)-(m1*vy1))/m2;
+
+    printf("\n %d %d\n",v2x,v2y);  
+
+    return 0;
+
+}
