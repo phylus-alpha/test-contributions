@@ -20,7 +20,7 @@ int main()
 
     vy2 = ((m1*uy1)+(m2*uy2)-(m1*vy1))/m2;
 
-    printf("\n %d %d\n",v2x,v2y);  
+    printf("\n %d %d\n",vx2,vy2);  
 
     return 0;
 
